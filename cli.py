@@ -16,7 +16,7 @@ def color_text(res: bool) -> typer.style:
 @app.command("inspect-contract")
 def inpsect_contract(contract_address: str, api_key: str):
 
-    provider = "https://eth-mainnet.alchemyapi.io/v2/" + api_key
+    provider = f"https://eth-mainnet.alchemyapi.io/v2/{api_key}"
 
     web3_interface = Web3(Web3.HTTPProvider(provider))
 

@@ -11,7 +11,7 @@ DELEGATECALL = 0xF4
 
 HALTING = [STOP, RETURN, REVERT, INVALID, SELFDESTRUCT]
 
-is_halting = lambda opcode: any([opcode == h for h in HALTING])
+is_halting = lambda opcode: any(opcode == h for h in HALTING)
 is_push = lambda opcode: opcode >= PUSH1 and opcode <= PUSH32
 
 

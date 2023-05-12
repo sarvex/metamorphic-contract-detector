@@ -127,19 +127,14 @@ def get_contract_creation_transaction_trace(
                 if trace.get("result").get("address") == contract_address.lower()
             ]
 
-            if len(create_trace) > 0:
-                return create_trace[0]
-            else:
-                return None
+            return create_trace[0] if create_trace else None
         except:
-            if i < retries - 1:
-                print("Alchemy request failed. Retrying request...")
-                sleep(5)
-                continue
-            else:
+            if i >= retries - 1:
                 raise Exception(
                     "Alchemy request for transaction trace failed after 3 attempts. Please try again."
                 )
+            print("Alchemy request failed. Retrying request...")
+            sleep(5)
 
 
 def contains_metamorphic_init_code(init_code: str) -> bool:
