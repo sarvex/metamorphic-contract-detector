@@ -14,7 +14,7 @@ bitarray==1.2.2; python_version >= "3.6" and python_version < "4"
 bleach==5.0.0; python_version >= "3.7"
 blinker==1.4; python_version >= "3.6"
 cachetools==5.1.0; python_version >= "3.7" and python_version < "4.0"
-certifi==2022.5.18.1; python_version >= "3.6" and python_version < "4" and python_full_version >= "3.6.2" and python_full_version < "3.7.0" or python_version >= "3.6" and python_version < "4" and python_full_version > "3.7.0" and python_full_version < "3.7.1" or python_version >= "3.6" and python_version < "4" and python_full_version > "3.7.1"
+certifi==2023.7.22; python_version >= "3.6" and python_version < "4" and python_full_version >= "3.6.2" and python_full_version < "3.7.0" or python_version >= "3.6" and python_version < "4" and python_full_version > "3.7.0" and python_full_version < "3.7.1" or python_version >= "3.6" and python_version < "4" and python_full_version > "3.7.1"
 cffi==1.15.0; implementation_name == "pypy" and python_version >= "3.7"
 charset-normalizer==2.0.12; python_version >= "3.6" and python_version < "4" and python_full_version >= "3.5.0" and (python_version >= "3.6" and python_version < "4" and python_full_version >= "3.6.2" and python_full_version < "3.7.0" or python_version >= "3.6" and python_version < "4" and python_full_version > "3.7.0" and python_full_version < "3.7.1" or python_version >= "3.6" and python_version < "4" and python_full_version > "3.7.1")
 click==8.0.4; python_version >= "3.6"
