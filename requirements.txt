@@ -10,7 +10,7 @@ attrs==21.4.0; python_version >= "3.7" and python_full_version < "3.0.0" and pyt
 backcall==0.2.0; python_version >= "3.8"
 base58==2.1.1; python_full_version >= "3.6.2" and python_full_version < "3.7.0" and python_version >= "3.6" and python_version < "4" or python_full_version > "3.7.0" and python_full_version < "3.7.1" and python_version >= "3.6" and python_version < "4" or python_version >= "3.6" and python_version < "4" and python_full_version > "3.7.1"
 beautifulsoup4==4.11.1; python_full_version >= "3.6.0" and python_version >= "3.7"
-bitarray==1.2.2; python_version >= "3.6" and python_version < "4"
+bitarray==1.9.2; python_version >= "3.6" and python_version < "4"
 bleach==5.0.0; python_version >= "3.7"
 blinker==1.4; python_version >= "3.6"
 cachetools==5.1.0; python_version >= "3.7" and python_version < "4.0"
